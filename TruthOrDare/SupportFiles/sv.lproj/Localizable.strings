@@ -1,0 +1,70 @@
+//-------------HOME LABELS-----------------
+
+"Modes" = "Kategorier";
+"Pre party"      = "Lättsamt";
+"Boys"           = "Grabbarna";
+"Girls"          = "Tjejerna";
+"Dirty"          = "Snuskigt";
+"Couples"        = "Par";
+
+//-------------HOME TEXTVIEWS-----------------
+
+"Get the party started"              = "Få igång förfesten";
+"Statements for the boys!"           = "Riktigt grabbiga påståenden";
+"Perfect for girls night"            = "Perfekt för girls night";
+"WOW! Is it hot in here?"            = "WOW! Blev det varmt här inne?";
+"Get to know each other for real!"   = "Lär känna varandra på riktigt!";
+
+
+//-------------SETTINGS-----------------
+
+"Terms & Conditions" = "Villkor";
+"Privacy Policy" = "Integritetspolicy";
+"Restore Purchase" = "Återställ Köp";
+"Buy Premium" = "Köp Premium";
+"Restored" = "Återställt";
+
+//-------------ONBOARDING-----------------
+
+"Next Statement" = "Nästa Påstående";
+"Previous Statement" = "Föregående Påstående";
+"Okey" = "Okej";
+
+
+//-------------RATE_POPUP-----------------
+
+"Rate us 5 stars and unlock more statements." = "Sätt ett 5-stjärnigt betyg och lås upp fler frågor!";
+"Free Statements? 😍" = "Gratis frågor? 😍";
+"Not now " = "Inte nu";
+"Yes!" = "Ja!";
+
+
+//-------------INFO_POPUP-----------------
+
+"Never Have I Ever" = "Jag har aldrig";
+
+"The rules are simple. If someone has done the action in question, they do whatever consequence you dream up. If only one person has had the experience in question, have them elaborate on it in detail. The juicier, the better!" = "Reglerna är mycket enkla. En person läser upp påståendena, alla som känner igen sig i påståendet ska utföra en förutbestämt konsekvens. Om endast en person i gruppen har erfarenheten i fråga så blir det story time.";
+
+
+"We have now restored your purchases to this device" = "Vi har nu återställt dina köp till denna enheten";
+
+
+//-------------PREMIUM-----------------
+
+"Unlock ALL categories" = "Lås upp ALLA kategorier";
+"Lås upp alla kategorier" = "Lås alle kategorier op";
+"Hundreds of awesome statements" = "Hundratals grymma påståenden";
+"Weekly updates & improvements" = "Kontinuerliga uppdateringar";
+"Free for 3 days then $4.99 per week" = "Gratis i 3 dagar sedan 55kr i veckan";
+"FREE TRIAL" = "GRATIS PROVPERIOD";
+"Premium version offers weekly subscription for $4.99 after 3-days free trial. Payment will be charged to Itunes Account at confirmation of purchase. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period at the cost of the chosen package. Subscription can be managed by the user. It can be turned off by going to the Appstore account settings." = "Premiumversion erbjuder prenumeration på 55 kr i veckan efter 3-dagars gratis provperiod. Betalningen debiteras iTunes-kontot vid bekräftelse av köpet. Prenumerationen förnyas automatiskt såvida inte automatisk förnyelse stängs av minst 24 timmar före slutet av den aktuella perioden, till kostnad för det valda paketet. Prenumerationen kan hanteras av användaren. Den kan stängas av genom att gå till Appstore-kontoinställningarna.";
+
+//-------------GAME_VIEW-----------------
+
+"Never have I ever..." = "Jag har aldrig...";
+
+//-------------STATEMENTS-----------------
+
+
+
+

@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2509004D2614EAF900FEA8CD /* RateUsPopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2509004C2614EAF900FEA8CD /* RateUsPopUp.storyboard */; };
+		2509004F2614F17400FEA8CD /* RateUsPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2509004E2614F17400FEA8CD /* RateUsPopUpView.swift */; };
+		250EFD3A276A38830096AAE2 /* AddPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250EFD39276A38830096AAE2 /* AddPlayerView.swift */; };
+		252F4333277333F2007E3FA6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 252F4332277333F2007E3FA6 /* FirebaseAnalytics */; };
+		252F4335277333F2007E3FA6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 252F4334277333F2007E3FA6 /* FirebaseDatabase */; };
+		252F433927733DDB007E3FA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 252F433827733DDB007E3FA6 /* GoogleService-Info.plist */; };
+		253FE8D724DDDBFD00F74983 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253FE8D624DDDBFD00F74983 /* OnboardingView.swift */; };
+		254759F7248FA8EA003C0BF8 /* SettingsPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254759F6248FA8EA003C0BF8 /* SettingsPopup.storyboard */; };
+		254759F9248FA980003C0BF8 /* SettingsPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254759F8248FA980003C0BF8 /* SettingsPopupView.swift */; };
+		254759FB248FA9CD003C0BF8 /* SettingsPopupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254759FA248FA9CD003C0BF8 /* SettingsPopupPresenter.swift */; };
+		254759FD249163A3003C0BF8 /* IAPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254759FC249163A3003C0BF8 /* IAPService.swift */; };
+		254759FF249163B1003C0BF8 /* IAPProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254759FE249163B1003C0BF8 /* IAPProducts.swift */; };
+		255048282643308B00874FB1 /* Localization_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255048272643308B00874FB1 /* Localization_Extension.swift */; };
+		255426AB24ADD30D0028DEA0 /* ProvideConstraintsForDeviceSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255426AA24ADD30D0028DEA0 /* ProvideConstraintsForDeviceSize.swift */; };
+		255426AD24ADD5240028DEA0 /* WhatDeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255426AC24ADD5240028DEA0 /* WhatDeviceType.swift */; };
+		255B4CF62691FABF00FC62ED /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B4CF52691FABF00FC62ED /* Emitter.swift */; };
+		255B4CF826922EEF00FC62ED /* PayWall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255B4CF726922EEF00FC62ED /* PayWall.storyboard */; };
+		255B4CFA2692394E00FC62ED /* PayWallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B4CF92692394E00FC62ED /* PayWallViewController.swift */; };
+		255B4CFC2692397900FC62ED /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B4CFB2692397900FC62ED /* WelcomeViewController.swift */; };
+		255B4D002694F2BA00FC62ED /* LanguagePopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255B4CFF2694F2BA00FC62ED /* LanguagePopup.storyboard */; };
+		255B4D022694F70A00FC62ED /* LanguagePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B4D012694F70A00FC62ED /* LanguagePopupView.swift */; };
+		255BCEB9262466D200453190 /* FetchFromFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BCEB8262466D200453190 /* FetchFromFirebase.swift */; };
+		2568FF352461539800B77C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C97BDF2460643600DEE132 /* AppDelegate.swift */; };
+		2568FF362461539C00B77C2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C97BE12460643600DEE132 /* SceneDelegate.swift */; };
+		2568FF3C246153F400B77C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C97BE82460643F00DEE132 /* Assets.xcassets */; };
+		2568FF412461926600B77C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2568FF402461926600B77C2B /* Main.storyboard */; };
+		2568FF452469B60300B77C2B /* HomeDecisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568FF442469B60300B77C2B /* HomeDecisionView.swift */; };
+		2568FF4B2469DC8B00B77C2B /* GameWindow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2568FF4A2469DC8B00B77C2B /* GameWindow.storyboard */; };
+		2568FF4D2469DD4A00B77C2B /* GameWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568FF4C2469DD4A00B77C2B /* GameWindowView.swift */; };
+		2568FF4F2469E1BD00B77C2B /* Button_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568FF4E2469E1BD00B77C2B /* Button_UI.swift */; };
+		2568FF512469E1D700B77C2B /* GlobalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568FF502469E1D700B77C2B /* GlobalColors.swift */; };
+		2568FF542469E6F100B77C2B /* HomeDecisionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568FF532469E6F100B77C2B /* HomeDecisionPresenter.swift */; };
+		2568FF5A246AC1EE00B77C2B /* ProvideGameTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568FF59246AC1EE00B77C2B /* ProvideGameTexts.swift */; };
+		2568FF5E246C577C00B77C2B /* OpenNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568FF5D246C577C00B77C2B /* OpenNewView.swift */; };
+		2568FF60246C73FA00B77C2B /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568FF5F246C73FA00B77C2B /* GlobalVariables.swift */; };
+		2568FF64246C759C00B77C2B /* GameWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568FF63246C759C00B77C2B /* GameWindowPresenter.swift */; };
+		2568FF66246C857C00B77C2B /* TextView_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568FF65246C857C00B77C2B /* TextView_UI.swift */; };
+		2568FF6C246D9E2100B77C2B /* PremiumPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2568FF6B246D9E2100B77C2B /* PremiumPopup.storyboard */; };
+		2568FF6E246D9E3E00B77C2B /* PremiumPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2568FF6D246D9E3E00B77C2B /* PremiumPopupView.swift */; };
+		2573B2A32493AE1D00E6FFD8 /* PremiumPopupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2573B2A22493AE1D00E6FFD8 /* PremiumPopupPresenter.swift */; };
+		2573B2A52493B70400E6FFD8 /* CheckPurchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2573B2A42493B70400E6FFD8 /* CheckPurchases.swift */; };
+		25A908E327734D8200F918E1 /* AddPlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A908E227734D8200F918E1 /* AddPlayerCollectionViewCell.swift */; };
+		25B60BEF2478627C00B2A735 /* View_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B60BEE2478627C00B2A735 /* View_UI.swift */; };
+		25CD93E62699C6C30077DF30 /* LanguagePopupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CD93E52699C6C30077DF30 /* LanguagePopupPresenter.swift */; };
+		25D90EFE247430AA00F0B7AF /* InfoPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D90EFD247430AA00F0B7AF /* InfoPopup.storyboard */; };
+		25D90F002474322A00F0B7AF /* InfoPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D90EFF2474322A00F0B7AF /* InfoPopupView.swift */; };
+		25F1173D26434610002F352B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25F1173F26434610002F352B /* Localizable.strings */; };
+		25F8ADB62479AFD600BF82AA /* ProvideGameRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F8ADB52479AFD600BF82AA /* ProvideGameRules.swift */; };
+		25F8ADB82479B30600BF82AA /* InfoPopupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F8ADB72479B30600BF82AA /* InfoPopupPresenter.swift */; };
+		D5F4D636751808B262CDB106 /* Pods_TruthOrDare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5305497929F848054F04964 /* Pods_TruthOrDare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2500B30227552F320096E70B /* TruthOrDare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TruthOrDare.entitlements; path = "/Users/marcusthuvesen/Desktop/Development IOS/TruthOrDare/TruthOrDare/TruthOrDare.entitlements"; sourceTree = "<absolute>"; };
+		2509004C2614EAF900FEA8CD /* RateUsPopUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RateUsPopUp.storyboard; sourceTree = "<group>"; };
+		2509004E2614F17400FEA8CD /* RateUsPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateUsPopUpView.swift; sourceTree = "<group>"; };
+		250EFD39276A38830096AAE2 /* AddPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerView.swift; sourceTree = "<group>"; };
+		252F433827733DDB007E3FA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "TruthOrDare/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		253FE8D624DDDBFD00F74983 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		254759F6248FA8EA003C0BF8 /* SettingsPopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsPopup.storyboard; sourceTree = "<group>"; };
+		254759F8248FA980003C0BF8 /* SettingsPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPopupView.swift; sourceTree = "<group>"; };
+		254759FA248FA9CD003C0BF8 /* SettingsPopupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPopupPresenter.swift; sourceTree = "<group>"; };
+		254759FC249163A3003C0BF8 /* IAPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPService.swift; sourceTree = "<group>"; };
+		254759FE249163B1003C0BF8 /* IAPProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProducts.swift; sourceTree = "<group>"; };
+		255048272643308B00874FB1 /* Localization_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization_Extension.swift; sourceTree = "<group>"; };
+		255426AA24ADD30D0028DEA0 /* ProvideConstraintsForDeviceSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvideConstraintsForDeviceSize.swift; sourceTree = "<group>"; };
+		255426AC24ADD5240028DEA0 /* WhatDeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDeviceType.swift; sourceTree = "<group>"; };
+		255B4CF52691FABF00FC62ED /* Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitter.swift; sourceTree = "<group>"; };
+		255B4CF726922EEF00FC62ED /* PayWall.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PayWall.storyboard; sourceTree = "<group>"; };
+		255B4CF92692394E00FC62ED /* PayWallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallViewController.swift; sourceTree = "<group>"; };
+		255B4CFB2692397900FC62ED /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		255B4CFF2694F2BA00FC62ED /* LanguagePopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LanguagePopup.storyboard; sourceTree = "<group>"; };
+		255B4D012694F70A00FC62ED /* LanguagePopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePopupView.swift; sourceTree = "<group>"; };
+		255BCEB8262466D200453190 /* FetchFromFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchFromFirebase.swift; sourceTree = "<group>"; };
+		2568FF402461926600B77C2B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2568FF442469B60300B77C2B /* HomeDecisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDecisionView.swift; sourceTree = "<group>"; };
+		2568FF4A2469DC8B00B77C2B /* GameWindow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameWindow.storyboard; sourceTree = "<group>"; };
+		2568FF4C2469DD4A00B77C2B /* GameWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWindowView.swift; sourceTree = "<group>"; };
+		2568FF4E2469E1BD00B77C2B /* Button_UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Button_UI.swift; path = ../Button_UI.swift; sourceTree = "<group>"; };
+		2568FF502469E1D700B77C2B /* GlobalColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GlobalColors.swift; path = ../GlobalColors.swift; sourceTree = "<group>"; };
+		2568FF532469E6F100B77C2B /* HomeDecisionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDecisionPresenter.swift; sourceTree = "<group>"; };
+		2568FF59246AC1EE00B77C2B /* ProvideGameTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvideGameTexts.swift; sourceTree = "<group>"; };
+		2568FF5D246C577C00B77C2B /* OpenNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenNewView.swift; sourceTree = "<group>"; };
+		2568FF5F246C73FA00B77C2B /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		2568FF63246C759C00B77C2B /* GameWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWindowPresenter.swift; sourceTree = "<group>"; };
+		2568FF65246C857C00B77C2B /* TextView_UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView_UI.swift; sourceTree = "<group>"; };
+		2568FF6B246D9E2100B77C2B /* PremiumPopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PremiumPopup.storyboard; sourceTree = "<group>"; };
+		2568FF6D246D9E3E00B77C2B /* PremiumPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumPopupView.swift; sourceTree = "<group>"; };
+		2573B2A22493AE1D00E6FFD8 /* PremiumPopupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumPopupPresenter.swift; sourceTree = "<group>"; };
+		2573B2A42493B70400E6FFD8 /* CheckPurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPurchases.swift; sourceTree = "<group>"; };
+		25A908E227734D8200F918E1 /* AddPlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		25B60BEE2478627C00B2A735 /* View_UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_UI.swift; sourceTree = "<group>"; };
+		25C97BDC2460643600DEE132 /* TruthOrDare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruthOrDare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C97BDF2460643600DEE132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		25C97BE12460643600DEE132 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
+		25C97BE82460643F00DEE132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25C97BED2460643F00DEE132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		25CD93E52699C6C30077DF30 /* LanguagePopupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePopupPresenter.swift; sourceTree = "<group>"; };
+		25CE40ED269E16DF0012F78B /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		25D90EFD247430AA00F0B7AF /* InfoPopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoPopup.storyboard; sourceTree = "<group>"; };
+		25D90EFF2474322A00F0B7AF /* InfoPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPopupView.swift; sourceTree = "<group>"; };
+		25F1173E26434610002F352B /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		25F8ADB52479AFD600BF82AA /* ProvideGameRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvideGameRules.swift; sourceTree = "<group>"; };
+		25F8ADB72479B30600BF82AA /* InfoPopupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPopupPresenter.swift; sourceTree = "<group>"; };
+		5F38FEF02BEE13ABC289756F /* Pods-TruthOrDare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruthOrDare.debug.xcconfig"; path = "Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare.debug.xcconfig"; sourceTree = "<group>"; };
+		68A35F7D7747B9F34BC4EBE4 /* Pods-NeverHaveIEver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverHaveIEver.release.xcconfig"; path = "Target Support Files/Pods-NeverHaveIEver/Pods-NeverHaveIEver.release.xcconfig"; sourceTree = "<group>"; };
+		892DADB52A2192D62565959B /* Pods-TruthOrDare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruthOrDare.release.xcconfig"; path = "Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare.release.xcconfig"; sourceTree = "<group>"; };
+		D5305497929F848054F04964 /* Pods_TruthOrDare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruthOrDare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CC1ED12AB54B9B787BD9BC /* Pods-NeverHaveIEver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverHaveIEver.debug.xcconfig"; path = "Target Support Files/Pods-NeverHaveIEver/Pods-NeverHaveIEver.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25C97BD92460643600DEE132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252F4335277333F2007E3FA6 /* FirebaseDatabase in Frameworks */,
+				252F4333277333F2007E3FA6 /* FirebaseAnalytics in Frameworks */,
+				D5F4D636751808B262CDB106 /* Pods_TruthOrDare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255BCEB72624668A00453190 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				255BCEB8262466D200453190 /* FetchFromFirebase.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2568FF522469E2E300B77C2B /* UI_Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2568FF502469E1D700B77C2B /* GlobalColors.swift */,
+				2568FF4E2469E1BD00B77C2B /* Button_UI.swift */,
+				2568FF65246C857C00B77C2B /* TextView_UI.swift */,
+				25B60BEE2478627C00B2A735 /* View_UI.swift */,
+				255048272643308B00874FB1 /* Localization_Extension.swift */,
+			);
+			path = UI_Extensions;
+			sourceTree = "<group>";
+		};
+		25C97BD32460643600DEE132 = {
+			isa = PBXGroup;
+			children = (
+				25C97BDE2460643600DEE132 /* TruthOrDare */,
+				25C97BDD2460643600DEE132 /* Products */,
+				5A551562A64AEF359077FA7F /* Pods */,
+				279EFA1B51515D08C57ED41D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25C97BDD2460643600DEE132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25C97BDC2460643600DEE132 /* TruthOrDare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25C97BDE2460643600DEE132 /* TruthOrDare */ = {
+			isa = PBXGroup;
+			children = (
+				252F433827733DDB007E3FA6 /* GoogleService-Info.plist */,
+				25C97BF924614FCB00DEE132 /* SupportFiles */,
+				255BCEB72624668A00453190 /* Network */,
+				25C97BF624614F9A00DEE132 /* Model */,
+				25C97BF524614F6000DEE132 /* View */,
+				25C97BF724614FA000DEE132 /* Presenter */,
+				25C97BE82460643F00DEE132 /* Assets.xcassets */,
+			);
+			name = TruthOrDare;
+			path = "/Users/marcusthuvesen/Desktop/Development IOS/NeverHaveIEver/NeverHaveIEver/TruthOrDare";
+			sourceTree = "<absolute>";
+		};
+		25C97BF524614F6000DEE132 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2568FF522469E2E300B77C2B /* UI_Extensions */,
+				255B4CFB2692397900FC62ED /* WelcomeViewController.swift */,
+				255B4CF92692394E00FC62ED /* PayWallViewController.swift */,
+				2568FF4C2469DD4A00B77C2B /* GameWindowView.swift */,
+				2568FF6D246D9E3E00B77C2B /* PremiumPopupView.swift */,
+				25D90EFF2474322A00F0B7AF /* InfoPopupView.swift */,
+				254759F8248FA980003C0BF8 /* SettingsPopupView.swift */,
+				250EFD39276A38830096AAE2 /* AddPlayerView.swift */,
+				25A908E227734D8200F918E1 /* AddPlayerCollectionViewCell.swift */,
+				253FE8D624DDDBFD00F74983 /* OnboardingView.swift */,
+				2509004E2614F17400FEA8CD /* RateUsPopUpView.swift */,
+				255B4CF52691FABF00FC62ED /* Emitter.swift */,
+				255B4D012694F70A00FC62ED /* LanguagePopupView.swift */,
+				2568FF442469B60300B77C2B /* HomeDecisionView.swift */,
+				25C97BFB2461519900DEE132 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25C97BF624614F9A00DEE132 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2568FF59246AC1EE00B77C2B /* ProvideGameTexts.swift */,
+				25F8ADB52479AFD600BF82AA /* ProvideGameRules.swift */,
+				254759FC249163A3003C0BF8 /* IAPService.swift */,
+				254759FE249163B1003C0BF8 /* IAPProducts.swift */,
+				255426AA24ADD30D0028DEA0 /* ProvideConstraintsForDeviceSize.swift */,
+				255426AC24ADD5240028DEA0 /* WhatDeviceType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25C97BF724614FA000DEE132 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2568FF532469E6F100B77C2B /* HomeDecisionPresenter.swift */,
+				25CD93E52699C6C30077DF30 /* LanguagePopupPresenter.swift */,
+				2568FF63246C759C00B77C2B /* GameWindowPresenter.swift */,
+				25F8ADB72479B30600BF82AA /* InfoPopupPresenter.swift */,
+				254759FA248FA9CD003C0BF8 /* SettingsPopupPresenter.swift */,
+				2573B2A22493AE1D00E6FFD8 /* PremiumPopupPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		25C97BF924614FCB00DEE132 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2500B30227552F320096E70B /* TruthOrDare.entitlements */,
+				25F1173F26434610002F352B /* Localizable.strings */,
+				25C97BDF2460643600DEE132 /* AppDelegate.swift */,
+				25C97BE12460643600DEE132 /* SceneDelegate.swift */,
+				25C97BED2460643F00DEE132 /* Info.plist */,
+				2568FF5D246C577C00B77C2B /* OpenNewView.swift */,
+				2568FF5F246C73FA00B77C2B /* GlobalVariables.swift */,
+				2573B2A42493B70400E6FFD8 /* CheckPurchases.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		25C97BFB2461519900DEE132 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2568FF402461926600B77C2B /* Main.storyboard */,
+				2568FF4A2469DC8B00B77C2B /* GameWindow.storyboard */,
+				2568FF6B246D9E2100B77C2B /* PremiumPopup.storyboard */,
+				25D90EFD247430AA00F0B7AF /* InfoPopup.storyboard */,
+				254759F6248FA8EA003C0BF8 /* SettingsPopup.storyboard */,
+				2509004C2614EAF900FEA8CD /* RateUsPopUp.storyboard */,
+				255B4CF726922EEF00FC62ED /* PayWall.storyboard */,
+				255B4CFF2694F2BA00FC62ED /* LanguagePopup.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		279EFA1B51515D08C57ED41D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5305497929F848054F04964 /* Pods_TruthOrDare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A551562A64AEF359077FA7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC1ED12AB54B9B787BD9BC /* Pods-NeverHaveIEver.debug.xcconfig */,
+				68A35F7D7747B9F34BC4EBE4 /* Pods-NeverHaveIEver.release.xcconfig */,
+				5F38FEF02BEE13ABC289756F /* Pods-TruthOrDare.debug.xcconfig */,
+				892DADB52A2192D62565959B /* Pods-TruthOrDare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25C97BDB2460643600DEE132 /* TruthOrDare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C97BF02460643F00DEE132 /* Build configuration list for PBXNativeTarget "TruthOrDare" */;
+			buildPhases = (
+				9DB74E679B7B387DE21F815D /* [CP] Check Pods Manifest.lock */,
+				25C97BD82460643600DEE132 /* Sources */,
+				25C97BD92460643600DEE132 /* Frameworks */,
+				25C97BDA2460643600DEE132 /* Resources */,
+				ECFB93F025E4678B25A445D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruthOrDare;
+			packageProductDependencies = (
+				252F4332277333F2007E3FA6 /* FirebaseAnalytics */,
+				252F4334277333F2007E3FA6 /* FirebaseDatabase */,
+			);
+			productName = "Törst";
+			productReference = 25C97BDC2460643600DEE132 /* TruthOrDare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25C97BD42460643600DEE132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Marcus Thuvesen";
+				TargetAttributes = {
+					25C97BDB2460643600DEE132 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 25C97BD72460643600DEE132 /* Build configuration list for PBXProject "TruthOrDare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				da,
+				nb,
+				sv,
+			);
+			mainGroup = 25C97BD32460643600DEE132;
+			packageReferences = (
+				252F4331277333F1007E3FA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 25C97BDD2460643600DEE132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25C97BDB2460643600DEE132 /* TruthOrDare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25C97BDA2460643600DEE132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2509004D2614EAF900FEA8CD /* RateUsPopUp.storyboard in Resources */,
+				2568FF3C246153F400B77C2B /* Assets.xcassets in Resources */,
+				2568FF412461926600B77C2B /* Main.storyboard in Resources */,
+				255B4D002694F2BA00FC62ED /* LanguagePopup.storyboard in Resources */,
+				255B4CF826922EEF00FC62ED /* PayWall.storyboard in Resources */,
+				25F1173D26434610002F352B /* Localizable.strings in Resources */,
+				25D90EFE247430AA00F0B7AF /* InfoPopup.storyboard in Resources */,
+				2568FF4B2469DC8B00B77C2B /* GameWindow.storyboard in Resources */,
+				252F433927733DDB007E3FA6 /* GoogleService-Info.plist in Resources */,
+				2568FF6C246D9E2100B77C2B /* PremiumPopup.storyboard in Resources */,
+				254759F7248FA8EA003C0BF8 /* SettingsPopup.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DB74E679B7B387DE21F815D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruthOrDare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFB93F025E4678B25A445D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25C97BD82460643600DEE132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253FE8D724DDDBFD00F74983 /* OnboardingView.swift in Sources */,
+				2568FF512469E1D700B77C2B /* GlobalColors.swift in Sources */,
+				2573B2A32493AE1D00E6FFD8 /* PremiumPopupPresenter.swift in Sources */,
+				255048282643308B00874FB1 /* Localization_Extension.swift in Sources */,
+				25CD93E62699C6C30077DF30 /* LanguagePopupPresenter.swift in Sources */,
+				254759F9248FA980003C0BF8 /* SettingsPopupView.swift in Sources */,
+				2568FF5A246AC1EE00B77C2B /* ProvideGameTexts.swift in Sources */,
+				254759FF249163B1003C0BF8 /* IAPProducts.swift in Sources */,
+				2568FF4F2469E1BD00B77C2B /* Button_UI.swift in Sources */,
+				2568FF362461539C00B77C2B /* SceneDelegate.swift in Sources */,
+				254759FB248FA9CD003C0BF8 /* SettingsPopupPresenter.swift in Sources */,
+				255BCEB9262466D200453190 /* FetchFromFirebase.swift in Sources */,
+				2568FF352461539800B77C2B /* AppDelegate.swift in Sources */,
+				2568FF60246C73FA00B77C2B /* GlobalVariables.swift in Sources */,
+				2509004F2614F17400FEA8CD /* RateUsPopUpView.swift in Sources */,
+				250EFD3A276A38830096AAE2 /* AddPlayerView.swift in Sources */,
+				255B4CFA2692394E00FC62ED /* PayWallViewController.swift in Sources */,
+				25F8ADB62479AFD600BF82AA /* ProvideGameRules.swift in Sources */,
+				255426AD24ADD5240028DEA0 /* WhatDeviceType.swift in Sources */,
+				2568FF66246C857C00B77C2B /* TextView_UI.swift in Sources */,
+				2573B2A52493B70400E6FFD8 /* CheckPurchases.swift in Sources */,
+				25D90F002474322A00F0B7AF /* InfoPopupView.swift in Sources */,
+				2568FF542469E6F100B77C2B /* HomeDecisionPresenter.swift in Sources */,
+				25A908E327734D8200F918E1 /* AddPlayerCollectionViewCell.swift in Sources */,
+				2568FF64246C759C00B77C2B /* GameWindowPresenter.swift in Sources */,
+				254759FD249163A3003C0BF8 /* IAPService.swift in Sources */,
+				255B4CFC2692397900FC62ED /* WelcomeViewController.swift in Sources */,
+				255426AB24ADD30D0028DEA0 /* ProvideConstraintsForDeviceSize.swift in Sources */,
+				2568FF5E246C577C00B77C2B /* OpenNewView.swift in Sources */,
+				255B4CF62691FABF00FC62ED /* Emitter.swift in Sources */,
+				25B60BEF2478627C00B2A735 /* View_UI.swift in Sources */,
+				25F8ADB82479B30600BF82AA /* InfoPopupPresenter.swift in Sources */,
+				2568FF4D2469DD4A00B77C2B /* GameWindowView.swift in Sources */,
+				2568FF452469B60300B77C2B /* HomeDecisionView.swift in Sources */,
+				2568FF6E246D9E3E00B77C2B /* PremiumPopupView.swift in Sources */,
+				255B4D022694F70A00FC62ED /* LanguagePopupView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25F1173F26434610002F352B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F1173E26434610002F352B /* da */,
+				25CE40ED269E16DF0012F78B /* sv */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25C97BEE2460643F00DEE132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25C97BEF2460643F00DEE132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25C97BF12460643F00DEE132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F38FEF02BEE13ABC289756F /* Pods-TruthOrDare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 4CTKXD59TF;
+				INFOPLIST_FILE = "$(SRCROOT)/../NeverHaveIEver/NeverHaveIEver/TruthOrDare/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.marcusthuvesen.TruthOrDare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25C97BF22460643F00DEE132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892DADB52A2192D62565959B /* Pods-TruthOrDare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 4CTKXD59TF;
+				INFOPLIST_FILE = "$(SRCROOT)/../NeverHaveIEver/NeverHaveIEver/TruthOrDare/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.marcusthuvesen.TruthOrDare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25C97BD72460643600DEE132 /* Build configuration list for PBXProject "TruthOrDare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C97BEE2460643F00DEE132 /* Debug */,
+				25C97BEF2460643F00DEE132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C97BF02460643F00DEE132 /* Build configuration list for PBXNativeTarget "TruthOrDare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C97BF12460643F00DEE132 /* Debug */,
+				25C97BF22460643F00DEE132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		252F4331277333F1007E3FA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		252F4332277333F2007E3FA6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 252F4331277333F1007E3FA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		252F4334277333F2007E3FA6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 252F4331277333F1007E3FA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 25C97BD42460643600DEE132 /* Project object */;
+}

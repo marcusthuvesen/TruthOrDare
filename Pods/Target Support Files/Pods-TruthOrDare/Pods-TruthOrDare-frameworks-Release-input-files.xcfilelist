@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ASN1Swift/ASN1Swift.framework
+${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework
+${BUILT_PRODUCTS_DIR}/TPInAppReceipt/TPInAppReceipt.framework

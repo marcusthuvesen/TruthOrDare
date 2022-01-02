@@ -1,0 +1,67 @@
+//-------------HOME LABELS-----------------
+
+"Välj Kategori" = "Vælg kategori";
+"Lättsamt"      = "Omgængelig";
+"Grabbarna"     = "Drengene  ";
+"Tjejerna"      = "Pigerne";
+"Snuskigt"      = "Frækt  ";
+"Extremt"       = "Ekstremt";
+
+//-------------HOME TEXTVIEWS-----------------
+
+"Isbrytarrunda som uppvärmning" = "Icebreaker runde som opvarmning";
+"Riktigt grabbiga frågor"       = "Virkelig drengeagtig";
+"Perfekt för girls night"       = "Perfekt til girls night";
+"Lär känna varandra på riktigt" = "blev det meget varmt herinde?";
+"Var beredd på extrema frågor!" = "Vær forberedt på ekstreme spørgsmål!";
+
+
+//-------------SETTINGS-----------------
+
+"Villkor" = "Vilkår";
+"Integritetspolicy" = "Privacy Policy";
+"Återställ Köp" = "Gendannet Køb";
+"Köp Premium" = "Køb Premium";
+"Återställer" = "Gendanner";
+
+//-------------ONBOARDING-----------------
+
+"Nästa Fråga" = "Næste Spørgsmål";
+"Föregående Fråga" = "Forrige Spørgsmål";
+"Okej" = "Okay";
+
+
+//-------------RATE_POPUP-----------------
+
+"Sätt ett 5-stjärnigt betyg och lås upp fler frågor!" = "Bedøm det 5 stjerner, og lås op for flere spørgsmål!";
+"Gratis frågor? 😍" = "Gratis spørgsmål? 😍";
+"Inte nu" = "Ikke nu";
+"Ja!" = "Ja!";
+
+
+//-------------INFO_POPUP-----------------
+
+"Rygg mot Rygg" = "Ryg mod Ryg";
+
+"Två av spelarna sitter på varsin stol med ryggarna mot varandra.\n\nEn annan person håller telefonen och läser upp påståendena. Spelarna på stolarna ska därefter peka på den person som de tycker påståendet stämmer bäst in på. Tycker man sig själv, pekar man på sig själv. Tycker man den andra, pekar man rakt fram." = "To af spillerne sidder på en stol med ryggen mod hinanden. \n\nEn anden person holder telefonen og læser udsagnene. Spillerne på stolene skal derefter pege på den person, de synes, udsagnet passer bedst til ... Hvis du tænker på dig selv, skal du pege på dig selv. Hvis den ene tænker den anden, peger den lige frem.";
+
+"Vi har nu återställt dina köp" = "Vi har nu gendannet dine indkøb";
+
+
+//-------------PREMIUM-----------------
+
+"Lås upp ALLT för 65kr" = "Lås op ALT for 49kr";
+"Lås upp alla kategorier" = "Lås alle kategorier op";
+"100-tals fler grymma frågor!" = "Hundredvis af mere spørgsmål!";
+"Betala endast en gång" = "Betal kun én gang";
+
+
+//-------------GAME_VIEW-----------------
+
+"Vem..." = "Hvem...";
+
+//-------------STATEMENTS-----------------
+
+
+
+
