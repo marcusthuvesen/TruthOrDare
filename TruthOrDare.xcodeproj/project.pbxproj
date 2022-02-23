@@ -30,8 +30,6 @@
 		255B4D022694F70A00FC62ED /* LanguagePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B4D012694F70A00FC62ED /* LanguagePopupView.swift */; };
 		255BCEB9262466D200453190 /* FetchFromFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BCEB8262466D200453190 /* FetchFromFirebase.swift */; };
 		25682384278F545100128F0A /* RKLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25682383278F545100128F0A /* RKLocalization.swift */; };
-		25682386278F54E000128F0A /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25682385278F54E000128F0A /* Languages.swift */; };
-		25682388278F550100128F0A /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25682387278F550100128F0A /* Language.swift */; };
 		2568FF352461539800B77C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C97BDF2460643600DEE132 /* AppDelegate.swift */; };
 		2568FF362461539C00B77C2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C97BE12460643600DEE132 /* SceneDelegate.swift */; };
 		2568FF3C246153F400B77C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C97BE82460643F00DEE132 /* Assets.xcassets */; };
@@ -85,8 +83,6 @@
 		255B4D012694F70A00FC62ED /* LanguagePopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePopupView.swift; sourceTree = "<group>"; };
 		255BCEB8262466D200453190 /* FetchFromFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchFromFirebase.swift; sourceTree = "<group>"; };
 		25682383278F545100128F0A /* RKLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKLocalization.swift; sourceTree = "<group>"; };
-		25682385278F54E000128F0A /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
-		25682387278F550100128F0A /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		2568FF402461926600B77C2B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2568FF442469B60300B77C2B /* HomeDecisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDecisionView.swift; sourceTree = "<group>"; };
 		2568FF4A2469DC8B00B77C2B /* GameWindow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameWindow.storyboard; sourceTree = "<group>"; };
@@ -105,6 +101,9 @@
 		2573B2A42493B70400E6FFD8 /* CheckPurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPurchases.swift; sourceTree = "<group>"; };
 		25A908E227734D8200F918E1 /* AddPlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerCollectionViewCell.swift; sourceTree = "<group>"; };
 		25B60BEE2478627C00B2A735 /* View_UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_UI.swift; sourceTree = "<group>"; };
+		25BB8A3627C6847B00E726EB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		25BB8A3727C68FB100E726EB /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		25BB8A3827C690B100E726EB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		25C97BDC2460643600DEE132 /* TruthOrDare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruthOrDare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C97BDF2460643600DEE132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		25C97BE12460643600DEE132 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
@@ -253,8 +252,6 @@
 				2568FF5F246C73FA00B77C2B /* GlobalVariables.swift */,
 				2573B2A42493B70400E6FFD8 /* CheckPurchases.swift */,
 				25682383278F545100128F0A /* RKLocalization.swift */,
-				25682385278F54E000128F0A /* Languages.swift */,
-				25682387278F550100128F0A /* Language.swift */,
 			);
 			path = SupportFiles;
 			sourceTree = "<group>";
@@ -344,6 +341,9 @@
 				da,
 				nb,
 				sv,
+				de,
+				nl,
+				es,
 			);
 			mainGroup = 25C97BD32460643600DEE132;
 			packageReferences = (
@@ -447,14 +447,12 @@
 				25F8ADB62479AFD600BF82AA /* ProvideGameRules.swift in Sources */,
 				255426AD24ADD5240028DEA0 /* WhatDeviceType.swift in Sources */,
 				2568FF66246C857C00B77C2B /* TextView_UI.swift in Sources */,
-				25682388278F550100128F0A /* Language.swift in Sources */,
 				2573B2A52493B70400E6FFD8 /* CheckPurchases.swift in Sources */,
 				25D90F002474322A00F0B7AF /* InfoPopupView.swift in Sources */,
 				2568FF542469E6F100B77C2B /* HomeDecisionPresenter.swift in Sources */,
 				25A908E327734D8200F918E1 /* AddPlayerCollectionViewCell.swift in Sources */,
 				2568FF64246C759C00B77C2B /* GameWindowPresenter.swift in Sources */,
 				254759FD249163A3003C0BF8 /* IAPService.swift in Sources */,
-				25682386278F54E000128F0A /* Languages.swift in Sources */,
 				255B4CFC2692397900FC62ED /* WelcomeViewController.swift in Sources */,
 				255426AB24ADD30D0028DEA0 /* ProvideConstraintsForDeviceSize.swift in Sources */,
 				2568FF5E246C577C00B77C2B /* OpenNewView.swift in Sources */,
@@ -478,6 +476,9 @@
 				25CE40ED269E16DF0012F78B /* sv */,
 				25E479C227C590E500C90FD3 /* en */,
 				25E479C327C590EE00C90FD3 /* nb */,
+				25BB8A3627C6847B00E726EB /* de */,
+				25BB8A3727C68FB100E726EB /* nl */,
+				25BB8A3827C690B100E726EB /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
