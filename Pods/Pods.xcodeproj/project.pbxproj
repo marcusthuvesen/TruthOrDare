@@ -3,30 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0113D8541B05AA06A793A24418F97929 /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06793E7577A1474A95ACC0841E3B21 /* SKProduct+LocalizedPrice.swift */; };
 		0785467EA6823E40B56A4ADB50DFD46A /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110DE2886D46EF2CE6884C4818AFF838 /* Extras.swift */; };
-		0941E837B9747B426B62DB07F61FEFF0 /* ASN1Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADF09E168E2F8DB7AA2EA821EE9D2B /* ASN1Decoder.swift */; };
-		09D6B7AE175E4F2F6B117762DA2B686A /* ASN1Decoder+SingleValueContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D81DDAB667E80953E2128823178C7B /* ASN1Decoder+SingleValueContainer.swift */; };
 		0AC34E78E328CF5AFBB6D1691BD6896E /* PaymentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14379AFB94A0984642067A4FC56C4923 /* PaymentsController.swift */; };
-		0B699CDC2F433E0BBCAFF2402820CB81 /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19101137B1209BF3F4F6D1B9590A9F0 /* PKCS7.swift */; };
 		0C146CEAAE38C3EEB074ECB601803501 /* InAppReceiptRefreshRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296F0DA23C46FFD08F54C13F4FAF0A5 /* InAppReceiptRefreshRequest.swift */; };
+		0E56B6544E99A32D0E45624A3F6E4F1D /* ASN1Decoder+UnkeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57067DE5E6574172FD5861E7DFDA02 /* ASN1Decoder+UnkeyedDecodingContainer.swift */; };
 		12213027C0775DF7B2FCE70671CD7269 /* InAppReceiptVerificator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D54675AE54CE27FA9871A7B59997B /* InAppReceiptVerificator.swift */; };
-		144EBF9CBF74F29B8643003F0E9F1FF9 /* ASN1Coder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE011F55ACB5D764C83AD1C80E8F465E /* ASN1Coder.swift */; };
+		168AF3D88178089A9B43D4AA91CBCB58 /* ASN1Decoder+SingleValueContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4365D6472AE90FFF9326158CE3AE0FA8 /* ASN1Decoder+SingleValueContainer.swift */; };
 		16C0E660FEC699625A6731581AA8FFAB /* TPInAppReceipt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31BEF8D7E3AFF0F260877E45032FA21A /* TPInAppReceipt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17082B5D0E5EDE46AEB3C4DC983E7A46 /* StoreKitTestCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 21DC82A073A5EA0097748778A85E50DA /* StoreKitTestCertificate.cer */; };
 		186B58E79700924D409D7B6D718B934D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		198270068CB91333984C1C44C0E7D70B /* IARError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625942846581ECEC1523D40FEBB301F4 /* IARError.swift */; };
 		1B193D43298918C2EE2C4BF103B540F3 /* TPInAppReceipt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75623872B2686A8CEDEE9F1A7B025183 /* TPInAppReceipt-dummy.m */; };
 		22BB2B523125C58E0E8A954ED8F8B7B8 /* Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58DC731781494573F60CA1088D1EE4 /* Initialization.swift */; };
+		3630F18313F3DBE46DE431BF4BE61BA0 /* ASN1Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5235510C481070E1288717CE6992AA5 /* ASN1Serialization.swift */; };
 		36EF2E4532AA6ADA936F79E22E5BB8C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		39B4A1044D721B04D84D1EE12B10180E /* PaymentQueueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C4E34D68713AB83F685E72A182F5A6 /* PaymentQueueController.swift */; };
 		3E5A6875C22B757F6377B87BF9DDBBF2 /* InAppProductQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F87D9A2FEF0AB20459DEA21618BB2E /* InAppProductQueryRequest.swift */; };
-		3EEF326DF0C9BB4379CA8DD211269614 /* ASN1Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F7104B2FC6837FC44DBA4D15D6DFDE /* ASN1Serialization.swift */; };
 		3FEBD4F622E4C859BE2F4E72ED87D0FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		416F00BDD82E778C69A9F5626E3E0F3B /* DecodingError+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502890C626454F5E76F916EF3167CE11 /* DecodingError+Extensions.swift */; };
 		426D2E73A69CACC4C62F26218EB02DF7 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACC00D359E5EC397FF4D491658D464 /* Date+Extension.swift */; };
 		42D85EDB2363BE9D2A8223418C4B5689 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E505D0D18AFA4CF31003555166B0DA7 /* Data+Extension.swift */; };
 		471DCA7DFF277E1573416930A5776313 /* SwiftyStoreKit+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A8EC8027EA58137F06734F999FECE7 /* SwiftyStoreKit+Types.swift */; };
@@ -35,30 +34,31 @@
 		535EE2B56AAF524C4B5C9FACE2C1F1B5 /* ProductsInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5F22E3625735939C35E8E0543D04EB /* ProductsInfoController.swift */; };
 		5E6E5A80FE94AC1AC16BCBE356268783 /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 4B32297756C0F06A8B7BC2CC526B59E1 /* AppleIncRootCertificate.cer */; };
 		62CB14F4A2E1CA6DCA72E9E26AFB59D1 /* SwiftyStoreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0724621396D79A830D9D2315186F2F21 /* SwiftyStoreKit-dummy.m */; };
-		6BF3EA9702B992174C43C61F6B38CC6F /* ASN1Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF713569F5C02724DCB1D5683A0B11F /* ASN1Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		713520F09D567C27422EC631142F2FD5 /* ASN1Decoder+Unboxing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A693FBA49298929583828C5D6040F9D /* ASN1Decoder+Unboxing.swift */; };
-		73D592B64E6F94B74B29986EEA5D002D /* ASN1Templates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475D2923BDC22199817D5D541FB5C32 /* ASN1Templates.swift */; };
+		650E182757A909418D5B964D4AADA2AD /* ASN1Decoder+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7018482F9F1A0F4F13DAD8439FE7D /* ASN1Decoder+Extras.swift */; };
+		67ADD5294D5A58FBA9090F0681AAD7AA /* ASN1Decoder+Unboxing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9A0984B72CB42C841307BD6214DB3 /* ASN1Decoder+Unboxing.swift */; };
+		69DD2E929FADCD3D6FDECBE709BBBB0A /* ASN1Decoder+KeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE5565DED1A45B4A31927C4B934448 /* ASN1Decoder+KeyedDecodingContainer.swift */; };
+		6BF3EA9702B992174C43C61F6B38CC6F /* ASN1Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F37D668B48AB36A8882F6F473C457D98 /* ASN1Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74C88A3349802BD9B10195178AB2015C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B1F0F332385FB34A0B74DA9343B7D /* Validation.swift */; };
 		77768D027FF9A26181BB93603251128C /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23197109F0F922DD6163EF9DAA84648 /* OS.swift */; };
-		80814EB9153FAE6DD4183D98759E453F /* ASN1Decoder+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD079B7DF98484960F965643514AE384 /* ASN1Decoder+Extras.swift */; };
-		8C4B46B4DE487681477C6D97D9BD11CE /* ASN1Decoder+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37C6E8D577DFD1EAD7A0F77A554D0D6 /* ASN1Decoder+Utils.swift */; };
+		81958A4E94294169123DEA2F198A7EE3 /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C3AEE2C4515E27AFEEE66660FF4032 /* PKCS7.swift */; };
 		8C5372655C23DA6968A9EA3AD8F6B1A2 /* InAppPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F951FD62712FCBD1EEBA3CB6C5B1C92 /* InAppPurchase.swift */; };
 		9174F19093D2EA76FC161A3C2B681E39 /* Pods-TruthOrDare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6070B4C0F5F1D40698155C6567E09B16 /* Pods-TruthOrDare-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92A7ABB4B3D1973A841F714B8FE73190 /* ASN1Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5C8DF5BA5B8B86CE3FFB9DFD4DF89 /* ASN1Types.swift */; };
-		9BA1F8EA7E6DE3ACCCFE42FF6F23AD1B /* Foundation+ASN1Coder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63ED9993142BA4B4EC317022391613 /* Foundation+ASN1Coder.swift */; };
+		933A99A9DE21FD687FFB1E0119C65277 /* ASN1Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1233860F056BF7D4DF81419022B259A /* ASN1Types.swift */; };
 		9DF86D22BDF8963B57A9ED057935DA46 /* SKProductDiscount+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A09C37C04C3212FDA11E8AAA1EE1EA /* SKProductDiscount+LocalizedPrice.swift */; };
 		9FD7526939D223BAD72F0A358EDF2170 /* InAppReceiptPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA58298D0DC77E5E068C6B5CA3F0B6FC /* InAppReceiptPayload.swift */; };
 		AC7457222FFB5D18EA3D0298CA3B6D00 /* InAppReceipt+ASN1Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23957BABCFF83F3D5C17AC5B211D055B /* InAppReceipt+ASN1Decodable.swift */; };
+		B04D97CAA3792C9A857C526C4782AFB5 /* Foundation+ASN1Coder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F503E47C23ABEC3A0BEF08E0EBB30F /* Foundation+ASN1Coder.swift */; };
 		B22AEF19DD365B4778C9517E81E72CAE /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AE80161B7F91C85E8A10BFB70258EE /* Bundle+Extension.swift */; };
+		B623681410B91909D78689BA4F8F6200 /* ASN1Templates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC240841EE187EE63385E69F4D8C56 /* ASN1Templates.swift */; };
 		B990D01F9D5D209ACBBF43DB0A794B6F /* AppleReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2065C1284BB054CDBCE7084B099737F9 /* AppleReceiptValidator.swift */; };
 		BC71B1FEB746342D3C55380F9B9767E7 /* CompleteTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4420F6A0DE7F2D18D1D0568F32308 /* CompleteTransactionsController.swift */; };
-		C3E52ACDD2789688E898FA16D8E9CCEC /* DecodingError+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F9DE6F6CEB46FDFFF2A77CAA410379 /* DecodingError+Extensions.swift */; };
 		C68C48B6778BE9339E0E9DB473FDEAF7 /* RestorePurchasesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760D31C329145DA683EAAC352EFB5639 /* RestorePurchasesController.swift */; };
 		C716FEB5537EDEF5CE72612F9CA0A450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DA003C9A3DBB4DD6E3936C64B7E9FF4B /* ASN1Decoder+UnkeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC58040CB70BC1B8783A3CE1C639796 /* ASN1Decoder+UnkeyedDecodingContainer.swift */; };
-		E1388FA7EA2089FF40444D80AD709C1C /* ASN1Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ED5A314BA4914FDB2A761B14127A45 /* ASN1Swift-dummy.m */; };
-		EB0998700AA54AF73CDC83034DBF4F23 /* ASN1Decoder+KeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F74CC7987C713791D7E24A2AB6827 /* ASN1Decoder+KeyedDecodingContainer.swift */; };
+		D7E2204794D2AD4E27EB35AB687BC6AC /* ASN1Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222ED7ABC36FDC3462B06BC002D34C4 /* ASN1Decoder.swift */; };
+		E1388FA7EA2089FF40444D80AD709C1C /* ASN1Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8609F16688438DC9A61F2299164849 /* ASN1Swift-dummy.m */; };
 		EF680FCCB6BAD60CCB90D21783B69CB8 /* Bundle+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB979B31398165F77E749CA85B788B /* Bundle+Private.swift */; };
+		F4AD24D4A01587CEA65887538F15E464 /* ASN1Decoder+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73855360239ED106A3DFD5B49E1ABC /* ASN1Decoder+Utils.swift */; };
+		F4F7769C336AF544CAB6C1E438D3A686 /* ASN1Coder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A3019A68DC17D67C311C7B3D7E8591 /* ASN1Coder.swift */; };
 		F67B358706337933EC671BC457CEC099 /* Pods-TruthOrDare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE6A10DB3DED453754F017E72691609 /* Pods-TruthOrDare-dummy.m */; };
 		F715B056A552B68196C7912799732392 /* InAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9C9814B2C00785EC18D8C8A5B408F4 /* InAppReceipt.swift */; };
 		F9047D527FC72704DF82182D0BBF55D3 /* InAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42A209ADC48E2D4E824214D4049573 /* InAppReceipt.swift */; };
@@ -98,14 +98,17 @@
 /* Begin PBXFileReference section */
 		01AE80161B7F91C85E8A10BFB70258EE /* Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "Sources/Bundle+Extension.swift"; sourceTree = "<group>"; };
 		02F87D9A2FEF0AB20459DEA21618BB2E /* InAppProductQueryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppProductQueryRequest.swift; path = Sources/SwiftyStoreKit/InAppProductQueryRequest.swift; sourceTree = "<group>"; };
-		0475D2923BDC22199817D5D541FB5C32 /* ASN1Templates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Templates.swift; path = Sources/asn1swift/ASN1Templates.swift; sourceTree = "<group>"; };
 		0724621396D79A830D9D2315186F2F21 /* SwiftyStoreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyStoreKit-dummy.m"; sourceTree = "<group>"; };
 		0D6B9BF3F2A23BACF1BC9F3E663CAE43 /* TPInAppReceipt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPInAppReceipt.release.xcconfig; sourceTree = "<group>"; };
+		0FB7018482F9F1A0F4F13DAD8439FE7D /* ASN1Decoder+Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASN1Decoder+Extras.swift"; path = "Sources/ASN1Swift/ASN1Decoder+Extras.swift"; sourceTree = "<group>"; };
 		110DE2886D46EF2CE6884C4818AFF838 /* Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extras.swift; path = Sources/Extras.swift; sourceTree = "<group>"; };
 		113E3751187BBF38CD97FDA4CF402728 /* SwiftyStoreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStoreKit-prefix.pch"; sourceTree = "<group>"; };
+		1175384311FC3C539ABA55D6B2BC2CC0 /* ASN1Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASN1Swift-prefix.pch"; sourceTree = "<group>"; };
 		131BBA07A17B67DF79FE25B436B33404 /* Pods-TruthOrDare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TruthOrDare-acknowledgements.plist"; sourceTree = "<group>"; };
 		14379AFB94A0984642067A4FC56C4923 /* PaymentsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentsController.swift; path = Sources/SwiftyStoreKit/PaymentsController.swift; sourceTree = "<group>"; };
 		184C5D32289C03726AB5616875F84E22 /* Pods-TruthOrDare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TruthOrDare.debug.xcconfig"; sourceTree = "<group>"; };
+		1A73855360239ED106A3DFD5B49E1ABC /* ASN1Decoder+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASN1Decoder+Utils.swift"; path = "Sources/ASN1Swift/ASN1Decoder+Utils.swift"; sourceTree = "<group>"; };
+		1A9F62AC44E811EA9A3BF9ABDEAA8060 /* ASN1Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASN1Swift.modulemap; sourceTree = "<group>"; };
 		1ABF98DFA91B90B3FA1DEA559D106C13 /* SwiftyStoreKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyStoreKit.modulemap; sourceTree = "<group>"; };
 		1FA10226D1CAF7E4D66032DF8627E9B7 /* TPInAppReceipt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TPInAppReceipt-Info.plist"; sourceTree = "<group>"; };
 		2065C1284BB054CDBCE7084B099737F9 /* AppleReceiptValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppleReceiptValidator.swift; path = Sources/SwiftyStoreKit/AppleReceiptValidator.swift; sourceTree = "<group>"; };
@@ -114,16 +117,21 @@
 		21DC82A073A5EA0097748778A85E50DA /* StoreKitTestCertificate.cer */ = {isa = PBXFileReference; includeInIndex = 1; name = StoreKitTestCertificate.cer; path = Sources/StoreKitTestCertificate.cer; sourceTree = "<group>"; };
 		23957BABCFF83F3D5C17AC5B211D055B /* InAppReceipt+ASN1Decodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "InAppReceipt+ASN1Decodable.swift"; path = "Sources/InAppReceipt+ASN1Decodable.swift"; sourceTree = "<group>"; };
 		28A8EC8027EA58137F06734F999FECE7 /* SwiftyStoreKit+Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyStoreKit+Types.swift"; path = "Sources/SwiftyStoreKit/SwiftyStoreKit+Types.swift"; sourceTree = "<group>"; };
+		29C3AEE2C4515E27AFEEE66660FF4032 /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/ASN1Swift/PKCS7/PKCS7.swift; sourceTree = "<group>"; };
 		31BEF8D7E3AFF0F260877E45032FA21A /* TPInAppReceipt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPInAppReceipt-umbrella.h"; sourceTree = "<group>"; };
 		32B68D5B8C0127052BE81786F59B46F6 /* SwiftyStoreKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyStoreKit; path = SwiftyStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36F9DE6F6CEB46FDFFF2A77CAA410379 /* DecodingError+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DecodingError+Extensions.swift"; path = "Sources/asn1swift/DecodingError+Extensions.swift"; sourceTree = "<group>"; };
 		3D42A209ADC48E2D4E824214D4049573 /* InAppReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceipt.swift; path = Sources/SwiftyStoreKit/InAppReceipt.swift; sourceTree = "<group>"; };
-		46A5C8DF5BA5B8B86CE3FFB9DFD4DF89 /* ASN1Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Types.swift; path = Sources/asn1swift/ASN1Types.swift; sourceTree = "<group>"; };
+		42F503E47C23ABEC3A0BEF08E0EBB30F /* Foundation+ASN1Coder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Foundation+ASN1Coder.swift"; path = "Sources/ASN1Swift/Foundation+ASN1Coder.swift"; sourceTree = "<group>"; };
+		4365D6472AE90FFF9326158CE3AE0FA8 /* ASN1Decoder+SingleValueContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASN1Decoder+SingleValueContainer.swift"; path = "Sources/ASN1Swift/ASN1Decoder+SingleValueContainer.swift"; sourceTree = "<group>"; };
 		4B32297756C0F06A8B7BC2CC526B59E1 /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; includeInIndex = 1; name = AppleIncRootCertificate.cer; path = Sources/AppleIncRootCertificate.cer; sourceTree = "<group>"; };
+		4DAC240841EE187EE63385E69F4D8C56 /* ASN1Templates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Templates.swift; path = Sources/ASN1Swift/ASN1Templates.swift; sourceTree = "<group>"; };
 		4F830605DCE1EAD09C39449B13690B47 /* SwiftyStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyStoreKit.release.xcconfig; sourceTree = "<group>"; };
+		4F8609F16688438DC9A61F2299164849 /* ASN1Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASN1Swift-dummy.m"; sourceTree = "<group>"; };
+		502890C626454F5E76F916EF3167CE11 /* DecodingError+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DecodingError+Extensions.swift"; path = "Sources/ASN1Swift/DecodingError+Extensions.swift"; sourceTree = "<group>"; };
+		5222ED7ABC36FDC3462B06BC002D34C4 /* ASN1Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Decoder.swift; path = Sources/ASN1Swift/ASN1Decoder.swift; sourceTree = "<group>"; };
 		55B95C7D3B3EA95D0B5AC37C6B93649B /* TPInAppReceipt */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPInAppReceipt; path = TPInAppReceipt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A06793E7577A1474A95ACC0841E3B21 /* SKProduct+LocalizedPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKProduct+LocalizedPrice.swift"; path = "Sources/SwiftyStoreKit/SKProduct+LocalizedPrice.swift"; sourceTree = "<group>"; };
-		5A693FBA49298929583828C5D6040F9D /* ASN1Decoder+Unboxing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASN1Decoder+Unboxing.swift"; path = "Sources/asn1swift/ASN1Decoder+Unboxing.swift"; sourceTree = "<group>"; };
+		5FF9A0984B72CB42C841307BD6214DB3 /* ASN1Decoder+Unboxing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASN1Decoder+Unboxing.swift"; path = "Sources/ASN1Swift/ASN1Decoder+Unboxing.swift"; sourceTree = "<group>"; };
 		6070B4C0F5F1D40698155C6567E09B16 /* Pods-TruthOrDare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TruthOrDare-umbrella.h"; sourceTree = "<group>"; };
 		625942846581ECEC1523D40FEBB301F4 /* IARError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IARError.swift; path = Sources/IARError.swift; sourceTree = "<group>"; };
 		689B1F0F332385FB34A0B74DA9343B7D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Sources/Validation.swift; sourceTree = "<group>"; };
@@ -133,48 +141,40 @@
 		760D31C329145DA683EAAC352EFB5639 /* RestorePurchasesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestorePurchasesController.swift; path = Sources/SwiftyStoreKit/RestorePurchasesController.swift; sourceTree = "<group>"; };
 		76AEE9FFC62A988F095B557BE9694E90 /* Pods-TruthOrDare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TruthOrDare.release.xcconfig"; sourceTree = "<group>"; };
 		7C9C9814B2C00785EC18D8C8A5B408F4 /* InAppReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceipt.swift; path = Sources/InAppReceipt.swift; sourceTree = "<group>"; };
-		84361F0CB718BE6A59F141DFFD8C8A8E /* ASN1Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASN1Swift-prefix.pch"; sourceTree = "<group>"; };
+		7E57067DE5E6574172FD5861E7DFDA02 /* ASN1Decoder+UnkeyedDecodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASN1Decoder+UnkeyedDecodingContainer.swift"; path = "Sources/ASN1Swift/ASN1Decoder+UnkeyedDecodingContainer.swift"; sourceTree = "<group>"; };
 		8DACC00D359E5EC397FF4D491658D464 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "Sources/Date+Extension.swift"; sourceTree = "<group>"; };
+		8DE387D2F571B00A73B1ADAEFA540EE7 /* ASN1Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASN1Swift.debug.xcconfig; sourceTree = "<group>"; };
 		8E505D0D18AFA4CF31003555166B0DA7 /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/Data+Extension.swift"; sourceTree = "<group>"; };
-		8FF713569F5C02724DCB1D5683A0B11F /* ASN1Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASN1Swift-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0D81DDAB667E80953E2128823178C7B /* ASN1Decoder+SingleValueContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASN1Decoder+SingleValueContainer.swift"; path = "Sources/asn1swift/ASN1Decoder+SingleValueContainer.swift"; sourceTree = "<group>"; };
+		A1BACD623CC24542B8234EDEB3977D5F /* ASN1Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASN1Swift.release.xcconfig; sourceTree = "<group>"; };
 		A23197109F0F922DD6163EF9DAA84648 /* OS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OS.swift; path = Sources/SwiftyStoreKit/OS.swift; sourceTree = "<group>"; };
 		A62D54675AE54CE27FA9871A7B59997B /* InAppReceiptVerificator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceiptVerificator.swift; path = Sources/SwiftyStoreKit/InAppReceiptVerificator.swift; sourceTree = "<group>"; };
 		A7DB979B31398165F77E749CA85B788B /* Bundle+Private.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Private.swift"; path = "Sources/Bundle+Private.swift"; sourceTree = "<group>"; };
 		AA58298D0DC77E5E068C6B5CA3F0B6FC /* InAppReceiptPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceiptPayload.swift; path = Sources/InAppReceiptPayload.swift; sourceTree = "<group>"; };
 		AFE6A10DB3DED453754F017E72691609 /* Pods-TruthOrDare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TruthOrDare-dummy.m"; sourceTree = "<group>"; };
-		B2B3F7DA9B4C987AA8A77870CDAE5B8C /* ASN1Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASN1Swift.release.xcconfig; sourceTree = "<group>"; };
-		B2ED5A314BA4914FDB2A761B14127A45 /* ASN1Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASN1Swift-dummy.m"; sourceTree = "<group>"; };
+		B1233860F056BF7D4DF81419022B259A /* ASN1Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Types.swift; path = Sources/ASN1Swift/ASN1Types.swift; sourceTree = "<group>"; };
 		B7C4E34D68713AB83F685E72A182F5A6 /* PaymentQueueController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentQueueController.swift; path = Sources/SwiftyStoreKit/PaymentQueueController.swift; sourceTree = "<group>"; };
 		C1098DB89ADE54C0C30141EBA4BDABE1 /* SwiftyStoreKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyStoreKit-Info.plist"; sourceTree = "<group>"; };
-		C13F74CC7987C713791D7E24A2AB6827 /* ASN1Decoder+KeyedDecodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASN1Decoder+KeyedDecodingContainer.swift"; path = "Sources/asn1swift/ASN1Decoder+KeyedDecodingContainer.swift"; sourceTree = "<group>"; };
+		C5235510C481070E1288717CE6992AA5 /* ASN1Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Serialization.swift; path = Sources/ASN1Swift/ASN1Serialization.swift; sourceTree = "<group>"; };
 		C60A18AC3FFFD6E5F3C6FB6286DD8BF0 /* Pods-TruthOrDare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TruthOrDare.modulemap"; sourceTree = "<group>"; };
 		C8269BCC8D7DA5025D8D9BE1A89B8917 /* SwiftyStoreKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyStoreKit.swift; path = Sources/SwiftyStoreKit/SwiftyStoreKit.swift; sourceTree = "<group>"; };
-		C8CF6ACE21F949704D09BFEEA9EA9442 /* ASN1Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASN1Swift-Info.plist"; sourceTree = "<group>"; };
-		CE011F55ACB5D764C83AD1C80E8F465E /* ASN1Coder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Coder.swift; path = Sources/asn1swift/ASN1Coder.swift; sourceTree = "<group>"; };
-		CEC58040CB70BC1B8783A3CE1C639796 /* ASN1Decoder+UnkeyedDecodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASN1Decoder+UnkeyedDecodingContainer.swift"; path = "Sources/asn1swift/ASN1Decoder+UnkeyedDecodingContainer.swift"; sourceTree = "<group>"; };
+		C8C9750046FF4EC357F29E2A00F620BF /* ASN1Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASN1Swift-Info.plist"; sourceTree = "<group>"; };
 		D296F0DA23C46FFD08F54C13F4FAF0A5 /* InAppReceiptRefreshRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceiptRefreshRequest.swift; path = Sources/SwiftyStoreKit/InAppReceiptRefreshRequest.swift; sourceTree = "<group>"; };
-		D37C6E8D577DFD1EAD7A0F77A554D0D6 /* ASN1Decoder+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASN1Decoder+Utils.swift"; path = "Sources/asn1swift/ASN1Decoder+Utils.swift"; sourceTree = "<group>"; };
 		D4533723312C7D50BB1FAB52D1785964 /* TPInAppReceipt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPInAppReceipt-prefix.pch"; sourceTree = "<group>"; };
 		DD58DC731781494573F60CA1088D1EE4 /* Initialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initialization.swift; path = Sources/Initialization.swift; sourceTree = "<group>"; };
-		E20C91E444CD77EB4148A2C2D63B064A /* ASN1Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASN1Swift.modulemap; sourceTree = "<group>"; };
 		E21D7932F831055A18D193BF63C116B5 /* Pods-TruthOrDare-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TruthOrDare-Info.plist"; sourceTree = "<group>"; };
 		E30145A102EC5B1C0A8DF94052584A4D /* SwiftyStoreKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStoreKit-umbrella.h"; sourceTree = "<group>"; };
 		E6646ECAFC9349A27D4AD174AAB7D397 /* TPInAppReceipt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPInAppReceipt.modulemap; sourceTree = "<group>"; };
+		E6A3019A68DC17D67C311C7B3D7E8591 /* ASN1Coder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Coder.swift; path = Sources/ASN1Swift/ASN1Coder.swift; sourceTree = "<group>"; };
 		E839E391BD7285F60D4FDAF1794E7042 /* ASN1Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASN1Swift; path = ASN1Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC61A6D0AFD39F27419E3A37B78B2545 /* ASN1Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASN1Swift.debug.xcconfig; sourceTree = "<group>"; };
 		EC6EF18F8984F1828EFF1509A6E7D65B /* Pods-TruthOrDare */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TruthOrDare"; path = Pods_TruthOrDare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F19101137B1209BF3F4F6D1B9590A9F0 /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/asn1swift/PKCS7/PKCS7.swift; sourceTree = "<group>"; };
+		F37D668B48AB36A8882F6F473C457D98 /* ASN1Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASN1Swift-umbrella.h"; sourceTree = "<group>"; };
 		F3C4420F6A0DE7F2D18D1D0568F32308 /* CompleteTransactionsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompleteTransactionsController.swift; path = Sources/SwiftyStoreKit/CompleteTransactionsController.swift; sourceTree = "<group>"; };
 		F65FA2251BE8D34A9D9B009B5D3C928F /* Pods-TruthOrDare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TruthOrDare-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7F7104B2FC6837FC44DBA4D15D6DFDE /* ASN1Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Serialization.swift; path = Sources/asn1swift/ASN1Serialization.swift; sourceTree = "<group>"; };
 		F9A09C37C04C3212FDA11E8AAA1EE1EA /* SKProductDiscount+LocalizedPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKProductDiscount+LocalizedPrice.swift"; path = "Sources/SwiftyStoreKit/SKProductDiscount+LocalizedPrice.swift"; sourceTree = "<group>"; };
-		FB63ED9993142BA4B4EC317022391613 /* Foundation+ASN1Coder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Foundation+ASN1Coder.swift"; path = "Sources/asn1swift/Foundation+ASN1Coder.swift"; sourceTree = "<group>"; };
-		FBADF09E168E2F8DB7AA2EA821EE9D2B /* ASN1Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASN1Decoder.swift; path = Sources/asn1swift/ASN1Decoder.swift; sourceTree = "<group>"; };
+		F9AE5565DED1A45B4A31927C4B934448 /* ASN1Decoder+KeyedDecodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASN1Decoder+KeyedDecodingContainer.swift"; path = "Sources/ASN1Swift/ASN1Decoder+KeyedDecodingContainer.swift"; sourceTree = "<group>"; };
 		FC5F22E3625735939C35E8E0543D04EB /* ProductsInfoController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductsInfoController.swift; path = Sources/SwiftyStoreKit/ProductsInfoController.swift; sourceTree = "<group>"; };
 		FCD0ED327F63030CCC4593D36BE6DFD4 /* SwiftyStoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyStoreKit.debug.xcconfig; sourceTree = "<group>"; };
-		FD079B7DF98484960F965643514AE384 /* ASN1Decoder+Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASN1Decoder+Extras.swift"; path = "Sources/asn1swift/ASN1Decoder+Extras.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,21 +213,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01C793E67424300077DCBD238C100472 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E20C91E444CD77EB4148A2C2D63B064A /* ASN1Swift.modulemap */,
-				B2ED5A314BA4914FDB2A761B14127A45 /* ASN1Swift-dummy.m */,
-				C8CF6ACE21F949704D09BFEEA9EA9442 /* ASN1Swift-Info.plist */,
-				84361F0CB718BE6A59F141DFFD8C8A8E /* ASN1Swift-prefix.pch */,
-				8FF713569F5C02724DCB1D5683A0B11F /* ASN1Swift-umbrella.h */,
-				EC61A6D0AFD39F27419E3A37B78B2545 /* ASN1Swift.debug.xcconfig */,
-				B2B3F7DA9B4C987AA8A77870CDAE5B8C /* ASN1Swift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ASN1Swift";
-			sourceTree = "<group>";
-		};
 		071771C4A5B888AE85D15F1B65E7185E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +265,29 @@
 			path = TPInAppReceipt;
 			sourceTree = "<group>";
 		};
+		6A039BD280EFF1DBF332844652A4C5C1 /* ASN1Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E6A3019A68DC17D67C311C7B3D7E8591 /* ASN1Coder.swift */,
+				5222ED7ABC36FDC3462B06BC002D34C4 /* ASN1Decoder.swift */,
+				0FB7018482F9F1A0F4F13DAD8439FE7D /* ASN1Decoder+Extras.swift */,
+				F9AE5565DED1A45B4A31927C4B934448 /* ASN1Decoder+KeyedDecodingContainer.swift */,
+				4365D6472AE90FFF9326158CE3AE0FA8 /* ASN1Decoder+SingleValueContainer.swift */,
+				5FF9A0984B72CB42C841307BD6214DB3 /* ASN1Decoder+Unboxing.swift */,
+				7E57067DE5E6574172FD5861E7DFDA02 /* ASN1Decoder+UnkeyedDecodingContainer.swift */,
+				1A73855360239ED106A3DFD5B49E1ABC /* ASN1Decoder+Utils.swift */,
+				C5235510C481070E1288717CE6992AA5 /* ASN1Serialization.swift */,
+				4DAC240841EE187EE63385E69F4D8C56 /* ASN1Templates.swift */,
+				B1233860F056BF7D4DF81419022B259A /* ASN1Types.swift */,
+				502890C626454F5E76F916EF3167CE11 /* DecodingError+Extensions.swift */,
+				42F503E47C23ABEC3A0BEF08E0EBB30F /* Foundation+ASN1Coder.swift */,
+				29C3AEE2C4515E27AFEEE66660FF4032 /* PKCS7.swift */,
+				C57EAFD0A10803FE2D784602C4EB23BE /* Support Files */,
+			);
+			name = ASN1Swift;
+			path = ASN1Swift;
+			sourceTree = "<group>";
+		};
 		78372FE6A5F1676B57CC9F1D2D2128D7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,7 +324,7 @@
 		969815D6E2B983FFB27E26536F34599D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E5CA5169E0542B108CC6A2C29F800087 /* ASN1Swift */,
+				6A039BD280EFF1DBF332844652A4C5C1 /* ASN1Swift */,
 				956BDB6C0BF0DA107DAD8DE1F4618299 /* SwiftyStoreKit */,
 				632AB22D7DB95150C254A85E1D3C06E8 /* TPInAppReceipt */,
 			);
@@ -358,6 +366,21 @@
 			path = "../Target Support Files/SwiftyStoreKit";
 			sourceTree = "<group>";
 		};
+		C57EAFD0A10803FE2D784602C4EB23BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A9F62AC44E811EA9A3BF9ABDEAA8060 /* ASN1Swift.modulemap */,
+				4F8609F16688438DC9A61F2299164849 /* ASN1Swift-dummy.m */,
+				C8C9750046FF4EC357F29E2A00F620BF /* ASN1Swift-Info.plist */,
+				1175384311FC3C539ABA55D6B2BC2CC0 /* ASN1Swift-prefix.pch */,
+				F37D668B48AB36A8882F6F473C457D98 /* ASN1Swift-umbrella.h */,
+				8DE387D2F571B00A73B1ADAEFA540EE7 /* ASN1Swift.debug.xcconfig */,
+				A1BACD623CC24542B8234EDEB3977D5F /* ASN1Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASN1Swift";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -375,29 +398,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E5CA5169E0542B108CC6A2C29F800087 /* ASN1Swift */ = {
-			isa = PBXGroup;
-			children = (
-				CE011F55ACB5D764C83AD1C80E8F465E /* ASN1Coder.swift */,
-				FBADF09E168E2F8DB7AA2EA821EE9D2B /* ASN1Decoder.swift */,
-				FD079B7DF98484960F965643514AE384 /* ASN1Decoder+Extras.swift */,
-				C13F74CC7987C713791D7E24A2AB6827 /* ASN1Decoder+KeyedDecodingContainer.swift */,
-				A0D81DDAB667E80953E2128823178C7B /* ASN1Decoder+SingleValueContainer.swift */,
-				5A693FBA49298929583828C5D6040F9D /* ASN1Decoder+Unboxing.swift */,
-				CEC58040CB70BC1B8783A3CE1C639796 /* ASN1Decoder+UnkeyedDecodingContainer.swift */,
-				D37C6E8D577DFD1EAD7A0F77A554D0D6 /* ASN1Decoder+Utils.swift */,
-				F7F7104B2FC6837FC44DBA4D15D6DFDE /* ASN1Serialization.swift */,
-				0475D2923BDC22199817D5D541FB5C32 /* ASN1Templates.swift */,
-				46A5C8DF5BA5B8B86CE3FFB9DFD4DF89 /* ASN1Types.swift */,
-				36F9DE6F6CEB46FDFFF2A77CAA410379 /* DecodingError+Extensions.swift */,
-				FB63ED9993142BA4B4EC317022391613 /* Foundation+ASN1Coder.swift */,
-				F19101137B1209BF3F4F6D1B9590A9F0 /* PKCS7.swift */,
-				01C793E67424300077DCBD238C100472 /* Support Files */,
-			);
-			name = ASN1Swift;
-			path = ASN1Swift;
 			sourceTree = "<group>";
 		};
 		F1F42ED469DFFE73D787C586342FC00B /* Pods-TruthOrDare */ = {
@@ -537,11 +537,11 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 11.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -607,21 +607,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				144EBF9CBF74F29B8643003F0E9F1FF9 /* ASN1Coder.swift in Sources */,
-				0941E837B9747B426B62DB07F61FEFF0 /* ASN1Decoder.swift in Sources */,
-				80814EB9153FAE6DD4183D98759E453F /* ASN1Decoder+Extras.swift in Sources */,
-				EB0998700AA54AF73CDC83034DBF4F23 /* ASN1Decoder+KeyedDecodingContainer.swift in Sources */,
-				09D6B7AE175E4F2F6B117762DA2B686A /* ASN1Decoder+SingleValueContainer.swift in Sources */,
-				713520F09D567C27422EC631142F2FD5 /* ASN1Decoder+Unboxing.swift in Sources */,
-				DA003C9A3DBB4DD6E3936C64B7E9FF4B /* ASN1Decoder+UnkeyedDecodingContainer.swift in Sources */,
-				8C4B46B4DE487681477C6D97D9BD11CE /* ASN1Decoder+Utils.swift in Sources */,
-				3EEF326DF0C9BB4379CA8DD211269614 /* ASN1Serialization.swift in Sources */,
+				F4F7769C336AF544CAB6C1E438D3A686 /* ASN1Coder.swift in Sources */,
+				D7E2204794D2AD4E27EB35AB687BC6AC /* ASN1Decoder.swift in Sources */,
+				650E182757A909418D5B964D4AADA2AD /* ASN1Decoder+Extras.swift in Sources */,
+				69DD2E929FADCD3D6FDECBE709BBBB0A /* ASN1Decoder+KeyedDecodingContainer.swift in Sources */,
+				168AF3D88178089A9B43D4AA91CBCB58 /* ASN1Decoder+SingleValueContainer.swift in Sources */,
+				67ADD5294D5A58FBA9090F0681AAD7AA /* ASN1Decoder+Unboxing.swift in Sources */,
+				0E56B6544E99A32D0E45624A3F6E4F1D /* ASN1Decoder+UnkeyedDecodingContainer.swift in Sources */,
+				F4AD24D4A01587CEA65887538F15E464 /* ASN1Decoder+Utils.swift in Sources */,
+				3630F18313F3DBE46DE431BF4BE61BA0 /* ASN1Serialization.swift in Sources */,
 				E1388FA7EA2089FF40444D80AD709C1C /* ASN1Swift-dummy.m in Sources */,
-				73D592B64E6F94B74B29986EEA5D002D /* ASN1Templates.swift in Sources */,
-				92A7ABB4B3D1973A841F714B8FE73190 /* ASN1Types.swift in Sources */,
-				C3E52ACDD2789688E898FA16D8E9CCEC /* DecodingError+Extensions.swift in Sources */,
-				9BA1F8EA7E6DE3ACCCFE42FF6F23AD1B /* Foundation+ASN1Coder.swift in Sources */,
-				0B699CDC2F433E0BBCAFF2402820CB81 /* PKCS7.swift in Sources */,
+				B623681410B91909D78689BA4F8F6200 /* ASN1Templates.swift in Sources */,
+				933A99A9DE21FD687FFB1E0119C65277 /* ASN1Types.swift in Sources */,
+				416F00BDD82E778C69A9F5626E3E0F3B /* DecodingError+Extensions.swift in Sources */,
+				B04D97CAA3792C9A857C526C4782AFB5 /* Foundation+ASN1Coder.swift in Sources */,
+				81958A4E94294169123DEA2F198A7EE3 /* PKCS7.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,40 +698,67 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		33EC2F81F8123A187DD09756085B0402 /* Debug */ = {
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21D1769263A91C82F9B620D3A4A906A0 /* TPInAppReceipt.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TPInAppReceipt/TPInAppReceipt-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TPInAppReceipt/TPInAppReceipt-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/TPInAppReceipt/TPInAppReceipt.modulemap";
-				PRODUCT_MODULE_NAME = TPInAppReceipt;
-				PRODUCT_NAME = TPInAppReceipt;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Debug;
+			name = Release;
 		};
 		3B1194E2EEEA97A8A943DF99E9181B19 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -768,7 +795,77 @@
 			};
 			name = Release;
 		};
-		494ABD5CCCE5E15693CADF620BCB13A1 /* Release */ = {
+		A67550780EF95555659F9A050F8BD72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BACD623CC24542B8234EDEB3977D5F /* ASN1Swift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASN1Swift/ASN1Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASN1Swift/ASN1Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ASN1Swift/ASN1Swift.modulemap";
+				PRODUCT_MODULE_NAME = ASN1Swift;
+				PRODUCT_NAME = ASN1Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8AE63F6518E3973FDDFE8C8C822D4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD0ED327F63030CCC4593D36BE6DFD4 /* SwiftyStoreKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyStoreKit;
+				PRODUCT_NAME = SwiftyStoreKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB35489C333FBCF830A13AB8BCCC309A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76AEE9FFC62A988F095B557BE9694E90 /* Pods-TruthOrDare.release.xcconfig */;
 			buildSettings = {
@@ -784,7 +881,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -806,7 +903,7 @@
 			};
 			name = Release;
 		};
-		56262B47E500E56659984BE48CBC3052 /* Release */ = {
+		EDAF3DA50852C91EC9B198BFAA73D8BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D6B9BF3F2A23BACF1BC9F3E663CAE43 /* TPInAppReceipt.release.xcconfig */;
 			buildSettings = {
@@ -822,7 +919,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TPInAppReceipt/TPInAppReceipt-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TPInAppReceipt/TPInAppReceipt-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -842,42 +939,7 @@
 			};
 			name = Release;
 		};
-		80F1726207AEBD891117CB520638A74A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC61A6D0AFD39F27419E3A37B78B2545 /* ASN1Swift.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASN1Swift/ASN1Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASN1Swift/ASN1Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ASN1Swift/ASN1Swift.modulemap";
-				PRODUCT_MODULE_NAME = ASN1Swift;
-				PRODUCT_NAME = ASN1Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -930,7 +992,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -943,69 +1005,42 @@
 			};
 			name = Debug;
 		};
-		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+		F85E9C16EE783DB64F65393667741A33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DE387D2F571B00A73B1ADAEFA540EE7 /* ASN1Swift.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASN1Swift/ASN1Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASN1Swift/ASN1Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				MODULEMAP_FILE = "Target Support Files/ASN1Swift/ASN1Swift.modulemap";
+				PRODUCT_MODULE_NAME = ASN1Swift;
+				PRODUCT_NAME = ASN1Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		A04036034B5ABDD89E5697EE901EE9E6 /* Debug */ = {
+		FAF43133BC7F9FA371CE38A4631019BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 184C5D32289C03726AB5616875F84E22 /* Pods-TruthOrDare.debug.xcconfig */;
 			buildSettings = {
@@ -1021,7 +1056,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1042,43 +1077,9 @@
 			};
 			name = Debug;
 		};
-		B8AE63F6518E3973FDDFE8C8C822D4AF /* Debug */ = {
+		FFDBB3BB0B2820297273D287B2AF70F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCD0ED327F63030CCC4593D36BE6DFD4 /* SwiftyStoreKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyStoreKit;
-				PRODUCT_NAME = SwiftyStoreKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D4B95F418F609C446ED464ECFA4B585F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2B3F7DA9B4C987AA8A77870CDAE5B8C /* ASN1Swift.release.xcconfig */;
+			baseConfigurationReference = 21D1769263A91C82F9B620D3A4A906A0 /* TPInAppReceipt.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1089,28 +1090,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASN1Swift/ASN1Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASN1Swift/ASN1Swift-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TPInAppReceipt/TPInAppReceipt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPInAppReceipt/TPInAppReceipt-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/ASN1Swift/ASN1Swift.modulemap";
-				PRODUCT_MODULE_NAME = ASN1Swift;
-				PRODUCT_NAME = ASN1Swift;
+				MODULEMAP_FILE = "Target Support Files/TPInAppReceipt/TPInAppReceipt.modulemap";
+				PRODUCT_MODULE_NAME = TPInAppReceipt;
+				PRODUCT_NAME = TPInAppReceipt;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1118,8 +1118,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
-				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1127,8 +1127,8 @@
 		6874506FBF7D524128A72085860AB4C9 /* Build configuration list for PBXNativeTarget "Pods-TruthOrDare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A04036034B5ABDD89E5697EE901EE9E6 /* Debug */,
-				494ABD5CCCE5E15693CADF620BCB13A1 /* Release */,
+				FAF43133BC7F9FA371CE38A4631019BB /* Debug */,
+				EB35489C333FBCF830A13AB8BCCC309A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1136,8 +1136,8 @@
 		A438BDCF4333A15C4F84E6924578AF7D /* Build configuration list for PBXNativeTarget "ASN1Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80F1726207AEBD891117CB520638A74A /* Debug */,
-				D4B95F418F609C446ED464ECFA4B585F /* Release */,
+				F85E9C16EE783DB64F65393667741A33 /* Debug */,
+				A67550780EF95555659F9A050F8BD72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1145,8 +1145,8 @@
 		D3AEBAF061F327FC97E847CCCFB8E08E /* Build configuration list for PBXNativeTarget "TPInAppReceipt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33EC2F81F8123A187DD09756085B0402 /* Debug */,
-				56262B47E500E56659984BE48CBC3052 /* Release */,
+				FFDBB3BB0B2820297273D287B2AF70F6 /* Debug */,
+				EDAF3DA50852C91EC9B198BFAA73D8BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

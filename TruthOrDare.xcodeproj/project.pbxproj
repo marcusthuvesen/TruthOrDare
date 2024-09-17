@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,6 +29,7 @@
 		255B4D002694F2BA00FC62ED /* LanguagePopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255B4CFF2694F2BA00FC62ED /* LanguagePopup.storyboard */; };
 		255B4D022694F70A00FC62ED /* LanguagePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B4D012694F70A00FC62ED /* LanguagePopupView.swift */; };
 		255BCEB9262466D200453190 /* FetchFromFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BCEB8262466D200453190 /* FetchFromFirebase.swift */; };
+		255FEF0F2B9E208F00A3444C /* TruthOrDare.plist in Resources */ = {isa = PBXBuildFile; fileRef = 255FEF0E2B9E208F00A3444C /* TruthOrDare.plist */; };
 		25682384278F545100128F0A /* RKLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25682383278F545100128F0A /* RKLocalization.swift */; };
 		2568FF352461539800B77C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C97BDF2460643600DEE132 /* AppDelegate.swift */; };
 		2568FF362461539C00B77C2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C97BE12460643600DEE132 /* SceneDelegate.swift */; };
@@ -51,20 +52,33 @@
 		2573B2A52493B70400E6FFD8 /* CheckPurchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2573B2A42493B70400E6FFD8 /* CheckPurchases.swift */; };
 		25A908E327734D8200F918E1 /* AddPlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A908E227734D8200F918E1 /* AddPlayerCollectionViewCell.swift */; };
 		25B60BEF2478627C00B2A735 /* View_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B60BEE2478627C00B2A735 /* View_UI.swift */; };
+		25C7FB0F28A13FDB00B13C94 /* Pods_TruthOrDare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5305497929F848054F04964 /* Pods_TruthOrDare.framework */; };
+		25C7FB1028A13FDB00B13C94 /* Pods_TruthOrDare.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5305497929F848054F04964 /* Pods_TruthOrDare.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		25CD93E62699C6C30077DF30 /* LanguagePopupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CD93E52699C6C30077DF30 /* LanguagePopupPresenter.swift */; };
 		25D90EFE247430AA00F0B7AF /* InfoPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D90EFD247430AA00F0B7AF /* InfoPopup.storyboard */; };
 		25D90F002474322A00F0B7AF /* InfoPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D90EFF2474322A00F0B7AF /* InfoPopupView.swift */; };
-		25F1173D26434610002F352B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25F1173F26434610002F352B /* Localizable.strings */; };
 		25F8ADB62479AFD600BF82AA /* ProvideGameRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F8ADB52479AFD600BF82AA /* ProvideGameRules.swift */; };
 		25F8ADB82479B30600BF82AA /* InfoPopupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F8ADB72479B30600BF82AA /* InfoPopupPresenter.swift */; };
-		D5F4D636751808B262CDB106 /* Pods_TruthOrDare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5305497929F848054F04964 /* Pods_TruthOrDare.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		25C7FB1128A13FDB00B13C94 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				25C7FB1028A13FDB00B13C94 /* Pods_TruthOrDare.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		2500B30227552F320096E70B /* TruthOrDare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TruthOrDare.entitlements; path = "/Users/marcusthuvesen/Desktop/Development IOS/TruthOrDare/TruthOrDare/TruthOrDare.entitlements"; sourceTree = "<absolute>"; };
 		2509004C2614EAF900FEA8CD /* RateUsPopUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RateUsPopUp.storyboard; sourceTree = "<group>"; };
 		2509004E2614F17400FEA8CD /* RateUsPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateUsPopUpView.swift; sourceTree = "<group>"; };
-		250EFD39276A38830096AAE2 /* AddPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerView.swift; sourceTree = "<group>"; };
+		250EFD39276A38830096AAE2 /* AddPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddPlayerView.swift; path = "/Users/marcusthuvesen/Documents/IOS-Dev/TruthOrDare/TruthOrDare/View/AddPlayerView.swift"; sourceTree = "<absolute>"; };
 		252F433827733DDB007E3FA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "TruthOrDare/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		253FE8D624DDDBFD00F74983 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		254759F6248FA8EA003C0BF8 /* SettingsPopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsPopup.storyboard; sourceTree = "<group>"; };
@@ -82,6 +96,7 @@
 		255B4CFF2694F2BA00FC62ED /* LanguagePopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LanguagePopup.storyboard; sourceTree = "<group>"; };
 		255B4D012694F70A00FC62ED /* LanguagePopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePopupView.swift; sourceTree = "<group>"; };
 		255BCEB8262466D200453190 /* FetchFromFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchFromFirebase.swift; sourceTree = "<group>"; };
+		255FEF0E2B9E208F00A3444C /* TruthOrDare.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TruthOrDare.plist; sourceTree = "<group>"; };
 		25682383278F545100128F0A /* RKLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKLocalization.swift; sourceTree = "<group>"; };
 		2568FF402461926600B77C2B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2568FF442469B60300B77C2B /* HomeDecisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDecisionView.swift; sourceTree = "<group>"; };
@@ -101,21 +116,14 @@
 		2573B2A42493B70400E6FFD8 /* CheckPurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPurchases.swift; sourceTree = "<group>"; };
 		25A908E227734D8200F918E1 /* AddPlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerCollectionViewCell.swift; sourceTree = "<group>"; };
 		25B60BEE2478627C00B2A735 /* View_UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_UI.swift; sourceTree = "<group>"; };
-		25BB8A3627C6847B00E726EB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		25BB8A3727C68FB100E726EB /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		25BB8A3827C690B100E726EB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		25C97BDC2460643600DEE132 /* TruthOrDare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruthOrDare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C97BDF2460643600DEE132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		25C97BE12460643600DEE132 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
-		25C97BE82460643F00DEE132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		25C97BED2460643F00DEE132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		25C97BE82460643F00DEE132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/marcusthuvesen/Documents/IOS-Dev/TruthOrDare/TruthOrDare/Assets.xcassets"; sourceTree = "<absolute>"; };
+		25C97BED2460643F00DEE132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/marcusthuvesen/Documents/IOS-Dev/TruthOrDare/TruthOrDare/Info.plist"; sourceTree = "<absolute>"; };
 		25CD93E52699C6C30077DF30 /* LanguagePopupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePopupPresenter.swift; sourceTree = "<group>"; };
-		25CE40ED269E16DF0012F78B /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		25D90EFD247430AA00F0B7AF /* InfoPopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoPopup.storyboard; sourceTree = "<group>"; };
 		25D90EFF2474322A00F0B7AF /* InfoPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPopupView.swift; sourceTree = "<group>"; };
-		25E479C227C590E500C90FD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		25E479C327C590EE00C90FD3 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
-		25F1173E26434610002F352B /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		25F8ADB52479AFD600BF82AA /* ProvideGameRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvideGameRules.swift; sourceTree = "<group>"; };
 		25F8ADB72479B30600BF82AA /* InfoPopupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPopupPresenter.swift; sourceTree = "<group>"; };
 		5F38FEF02BEE13ABC289756F /* Pods-TruthOrDare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruthOrDare.debug.xcconfig"; path = "Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,8 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				252F4335277333F2007E3FA6 /* FirebaseDatabase in Frameworks */,
+				25C7FB0F28A13FDB00B13C94 /* Pods_TruthOrDare.framework in Frameworks */,
 				252F4333277333F2007E3FA6 /* FirebaseAnalytics in Frameworks */,
-				D5F4D636751808B262CDB106 /* Pods_TruthOrDare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +152,9 @@
 			children = (
 				255BCEB8262466D200453190 /* FetchFromFirebase.swift */,
 			);
-			path = Network;
-			sourceTree = "<group>";
+			name = Network;
+			path = "/Users/marcusthuvesen/Documents/IOS-Dev/TruthOrDare/TruthOrDare/Network";
+			sourceTree = "<absolute>";
 		};
 		2568FF522469E2E300B77C2B /* UI_Extensions */ = {
 			isa = PBXGroup;
@@ -162,6 +171,7 @@
 		25C97BD32460643600DEE132 = {
 			isa = PBXGroup;
 			children = (
+				255FEF0E2B9E208F00A3444C /* TruthOrDare.plist */,
 				25C97BDE2460643600DEE132 /* TruthOrDare */,
 				25C97BDD2460643600DEE132 /* Products */,
 				5A551562A64AEF359077FA7F /* Pods */,
@@ -181,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				252F433827733DDB007E3FA6 /* GoogleService-Info.plist */,
+				25C97BED2460643F00DEE132 /* Info.plist */,
 				25C97BF924614FCB00DEE132 /* SupportFiles */,
 				255BCEB72624668A00453190 /* Network */,
 				25C97BF624614F9A00DEE132 /* Model */,
@@ -189,7 +200,7 @@
 				25C97BE82460643F00DEE132 /* Assets.xcassets */,
 			);
 			name = TruthOrDare;
-			path = "/Users/marcusthuvesen/Desktop/Development IOS/NeverHaveIEver/NeverHaveIEver/TruthOrDare";
+			path = "/Users/marcusthuvesen/Documents/IOS-Dev/TruthOrDare/TruthOrDare";
 			sourceTree = "<absolute>";
 		};
 		25C97BF524614F6000DEE132 /* View */ = {
@@ -211,8 +222,9 @@
 				2568FF442469B60300B77C2B /* HomeDecisionView.swift */,
 				25C97BFB2461519900DEE132 /* Storyboards */,
 			);
-			path = View;
-			sourceTree = "<group>";
+			name = View;
+			path = "/Users/marcusthuvesen/Documents/IOS-Dev/TruthOrDare/TruthOrDare/View";
+			sourceTree = "<absolute>";
 		};
 		25C97BF624614F9A00DEE132 /* Model */ = {
 			isa = PBXGroup;
@@ -224,8 +236,9 @@
 				255426AA24ADD30D0028DEA0 /* ProvideConstraintsForDeviceSize.swift */,
 				255426AC24ADD5240028DEA0 /* WhatDeviceType.swift */,
 			);
-			path = Model;
-			sourceTree = "<group>";
+			name = Model;
+			path = "/Users/marcusthuvesen/Documents/IOS-Dev/TruthOrDare/TruthOrDare/Model";
+			sourceTree = "<absolute>";
 		};
 		25C97BF724614FA000DEE132 /* Presenter */ = {
 			isa = PBXGroup;
@@ -237,24 +250,23 @@
 				254759FA248FA9CD003C0BF8 /* SettingsPopupPresenter.swift */,
 				2573B2A22493AE1D00E6FFD8 /* PremiumPopupPresenter.swift */,
 			);
-			path = Presenter;
-			sourceTree = "<group>";
+			name = Presenter;
+			path = "/Users/marcusthuvesen/Documents/IOS-Dev/TruthOrDare/TruthOrDare/Presenter";
+			sourceTree = "<absolute>";
 		};
 		25C97BF924614FCB00DEE132 /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
-				2500B30227552F320096E70B /* TruthOrDare.entitlements */,
-				25F1173F26434610002F352B /* Localizable.strings */,
 				25C97BDF2460643600DEE132 /* AppDelegate.swift */,
 				25C97BE12460643600DEE132 /* SceneDelegate.swift */,
-				25C97BED2460643F00DEE132 /* Info.plist */,
 				2568FF5D246C577C00B77C2B /* OpenNewView.swift */,
 				2568FF5F246C73FA00B77C2B /* GlobalVariables.swift */,
 				2573B2A42493B70400E6FFD8 /* CheckPurchases.swift */,
 				25682383278F545100128F0A /* RKLocalization.swift */,
 			);
-			path = SupportFiles;
-			sourceTree = "<group>";
+			name = SupportFiles;
+			path = "/Users/marcusthuvesen/Documents/IOS-Dev/TruthOrDare/TruthOrDare/SupportFiles";
+			sourceTree = "<absolute>";
 		};
 		25C97BFB2461519900DEE132 /* Storyboards */ = {
 			isa = PBXGroup;
@@ -268,8 +280,9 @@
 				255B4CF726922EEF00FC62ED /* PayWall.storyboard */,
 				255B4CFF2694F2BA00FC62ED /* LanguagePopup.storyboard */,
 			);
-			path = Storyboards;
-			sourceTree = "<group>";
+			name = Storyboards;
+			path = "/Users/marcusthuvesen/Documents/IOS-Dev/TruthOrDare/TruthOrDare/View/Storyboards";
+			sourceTree = "<absolute>";
 		};
 		279EFA1B51515D08C57ED41D /* Frameworks */ = {
 			isa = PBXGroup;
@@ -302,6 +315,7 @@
 				25C97BD92460643600DEE132 /* Frameworks */,
 				25C97BDA2460643600DEE132 /* Resources */,
 				ECFB93F025E4678B25A445D7 /* [CP] Embed Pods Frameworks */,
+				25C7FB1128A13FDB00B13C94 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -338,12 +352,6 @@
 			knownRegions = (
 				en,
 				Base,
-				da,
-				nb,
-				sv,
-				de,
-				nl,
-				es,
 			);
 			mainGroup = 25C97BD32460643600DEE132;
 			packageReferences = (
@@ -365,10 +373,10 @@
 			files = (
 				2509004D2614EAF900FEA8CD /* RateUsPopUp.storyboard in Resources */,
 				2568FF3C246153F400B77C2B /* Assets.xcassets in Resources */,
+				255FEF0F2B9E208F00A3444C /* TruthOrDare.plist in Resources */,
 				2568FF412461926600B77C2B /* Main.storyboard in Resources */,
 				255B4D002694F2BA00FC62ED /* LanguagePopup.storyboard in Resources */,
 				255B4CF826922EEF00FC62ED /* PayWall.storyboard in Resources */,
-				25F1173D26434610002F352B /* Localizable.strings in Resources */,
 				25D90EFE247430AA00F0B7AF /* InfoPopup.storyboard in Resources */,
 				2568FF4B2469DC8B00B77C2B /* GameWindow.storyboard in Resources */,
 				252F433927733DDB007E3FA6 /* GoogleService-Info.plist in Resources */,
@@ -468,23 +476,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		25F1173F26434610002F352B /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25F1173E26434610002F352B /* da */,
-				25CE40ED269E16DF0012F78B /* sv */,
-				25E479C227C590E500C90FD3 /* en */,
-				25E479C327C590EE00C90FD3 /* nb */,
-				25BB8A3627C6847B00E726EB /* de */,
-				25BB8A3727C68FB100E726EB /* nl */,
-				25BB8A3827C690B100E726EB /* es */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		25C97BEE2460643F00DEE132 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -538,7 +529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -594,7 +585,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -612,15 +603,15 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.01;
+				CURRENT_PROJECT_VERSION = 1.02;
 				DEVELOPMENT_TEAM = 4CTKXD59TF;
 				INFOPLIST_FILE = "$(SRCROOT)/../NeverHaveIEver/NeverHaveIEver/TruthOrDare/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = se.marcusthuvesen.TruthOrDare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -639,15 +630,15 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.01;
+				CURRENT_PROJECT_VERSION = 1.02;
 				DEVELOPMENT_TEAM = 4CTKXD59TF;
 				INFOPLIST_FILE = "$(SRCROOT)/../NeverHaveIEver/NeverHaveIEver/TruthOrDare/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = se.marcusthuvesen.TruthOrDare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

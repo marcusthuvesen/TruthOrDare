@@ -1,10 +1,10 @@
 PODS:
-  - ASN1Swift (1.2.3)
+  - ASN1Swift (1.2.5)
   - SwiftyStoreKit (0.16.1)
-  - TPInAppReceipt (3.3.2):
-    - TPInAppReceipt/Core (= 3.3.2)
-  - TPInAppReceipt/Core (3.3.2):
-    - ASN1Swift (~> 1.2.3)
+  - TPInAppReceipt (3.4.0):
+    - TPInAppReceipt/Core (= 3.4.0)
+  - TPInAppReceipt/Core (3.4.0):
+    - ASN1Swift (~> 1.2.5)
 
 DEPENDENCIES:
   - SwiftyStoreKit
@@ -17,10 +17,10 @@ SPEC REPOS:
     - TPInAppReceipt
 
 SPEC CHECKSUMS:
-  ASN1Swift: 73ba94f1d97c1c1d059d180708ad42845aeac4f9
+  ASN1Swift: be676fe8c6cd753dbc402ec68b28544d53aa0c26
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
-  TPInAppReceipt: 5f9eb3ebc7e13b9427a7f42aa9657c005ffaf34c
+  TPInAppReceipt: 43196f444b7287a7d228184b9df7eae5598c1940
 
 PODFILE CHECKSUM: 3942a9e5808abe12ac7d77a193ff9ba79834fcb4
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.15.2
